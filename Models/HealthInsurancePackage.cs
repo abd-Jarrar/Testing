@@ -7,7 +7,7 @@ namespace Testing.Models
     public enum HealthInsurancePackage
     {
         Basic,
-        Medium,
+        Fair,
         Premium
     }
 }
