@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="XUnitTesting\**" />
+    <EmbeddedResource Remove="XUnitTesting\**" />
+    <None Remove="XUnitTesting\**" />
+  </ItemGroup>
+
+
 </Project>
